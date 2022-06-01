@@ -1,4 +1,60 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* Restablecer valores del navegador: */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colores */
+    --black: #000000;
+    --white: #FFFFFF;
+    --magenta: #9A3399;
+    --blue: #2940AB;
+    --green: #1BD760;
+    --light-gray: #EFEFEF;
+
+    /* Font-weight */
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+}
+
 html {
+    /* 1rem = 10px */
     font-size: 62.5%;
 }
-/* Usar Roboto como fuente */
+
+/* NAVIGATION BAR */
+
+.navbar-container {
+    width: auto;
+    height: 80px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    color: var(--white);
+    font-weight: var(--bold);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.navbar-container__items {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar-container__items a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navbar-container__items a:hover {
+    color: var(--green);
+}
