@@ -29,14 +29,21 @@ html {
 
 /* NAVIGATION BAR */
 
-.navbar-container {
+header {
     width: auto;
     height: 80px;
     background-color: var(--black);
     display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    width: 1200px;
+    height: 80px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px 0 150px;
+    padding: 0 20px 0 20px;
     color: var(--white);
     font-weight: var(--bold);
     font-size: 1.6rem;
@@ -57,4 +64,82 @@ html {
 
 .navbar-container__items a:hover {
     color: var(--green);
+}
+
+/* MAIN */
+
+main {
+    height: auto;
+    width: auto;
+    background-color: var(--magenta);
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 1 */
+
+.promo-container {
+    height: 640px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    padding: 0 20px 0 20px;
+}
+
+.promo-container__description {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.promo-container__description--name {
+    font-size: 1.4rem;
+    font-weight: var(--medium);
+}
+
+.promo-container__description h1 {
+    font-size: 4rem;
+    font-weight: var(--bold);
+    line-height: 4rem;
+}
+
+.promo-container__description--text {
+    font-size: 2.4rem;
+    font-weight: var(--medium);
+    line-height: 3.6rem;
+}
+
+.promo-container__description button {
+    height: 48px;
+    width: 225px;
+    background-color: var(--black);
+    border: none;
+    border-radius: 40px;
+}
+
+.promo-container__description button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--black);
+}
+
+.promo-container__description button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.promo-container__description--aux {
+    font-size: 1.2rem;
+    font-weight: var(--light);
+    line-height: 1.2rem;
+}
+
+.promo-container__description--aux span {
+    text-decoration: underline;
 }
