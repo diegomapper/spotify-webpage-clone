@@ -204,3 +204,18 @@ main {
     font-weight: var(--bold);
     color: var(--blue);
 }
+
+/* FOOTER */
+
+footer {
+    height: 530px;
+    width: auto;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer-container__card--circle {
+    height: 54px;
+    width: 54px;
+    background-color: var(--white);
+}
