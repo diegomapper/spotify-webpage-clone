@@ -76,8 +76,6 @@ main {
     justify-content: center;
 }
 
-/* SECTION 1 */
-
 .promo-container {
     height: 640px;
     width: 1200px;
@@ -105,6 +103,7 @@ main {
     font-size: 4rem;
     font-weight: var(--bold);
     line-height: 4rem;
+    letter-spacing: .1rem;
 }
 
 .promo-container__description--text {
@@ -142,4 +141,66 @@ main {
 
 .promo-container__description--aux span {
     text-decoration: underline;
+}
+
+/* SECTION FREE */
+
+.free-container {
+    width: auto;
+    height: 632px;
+    background-color: var(--blue);
+    background-image: url(./assets/circles_desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--green);
+}
+
+.free-container__description {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 100px 20px 0 20px;
+}
+
+.free-container__description span {
+    font-size: 1.4rem;
+    font-weight: var(--light);
+}
+
+.free-container__description h1 {
+    font-size: 4rem;
+    font-weight: var(--bold);
+    line-height: 4rem;
+    letter-spacing: .1rem;
+}
+
+.free-container__description p {
+    font-size: 2.4rem;
+    font-weight: var(--medium);
+    line-height: 3.6rem;
+}
+
+.free-container__description button {
+    height: 48px;
+    width: 225px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 40px;
+}
+
+.free-container__description button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--green);
+}
+
+.free-container__description button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--blue);
 }
