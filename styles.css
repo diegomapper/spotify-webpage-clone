@@ -212,6 +212,9 @@ footer {
     width: auto;
     background-color: var(--black);
     color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 80px 0 50px 0;
 }
 
 .footer-container {
@@ -226,27 +229,35 @@ footer {
 .footer-container__card {
     height: 346px;
     width: 195px;
+    padding: 0 15px 0 15px;
+    line-height: 42px;
 }
 
 .footer-container__card span {
     font-size: 1.2rem;
     font-weight: var(--bold);
-    letter-spacing: 1.4px;
-    line-height: 36px;
     color: #919496;
+    letter-spacing: .1rem;
 }
 
 .footer-container__card li {
     font-size: 1.6rem;
-    font-weight: var(--bold);
-    letter-spacing: 1.4px;
-    line-height: 24px;
+    font-weight: var(--medium);
+    letter-spacing: .1rem;
     list-style: none;
+}
+
+.footer-container__card li:hover {
+    cursor: pointer;
+    color: var(--green);
 }
 
 .footer-container__card--circle {
     height: 54px;
     width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #222326;
     border-radius: 50%;
 }
@@ -254,6 +265,8 @@ footer {
 .footer-container__card--images {
     display: flex;
     justify-content: space-between;
+    margin: 0 15px 0 170px;
+    padding: 0;
 }
 
 .footer-container__card--images img {
@@ -265,15 +278,41 @@ footer {
 .footer-container__country {
     height: 15px;
     width: 1200px;
+    margin: 0 15px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    color: #919496;
+}
+
+.footer-container__country img {
+    margin: 0 8px 0 0;
 }
 
 .footer-container__copyright {
     height: 39px;
     width: 1200px;
+    margin: 0 15px 0 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #919496;
+    font-size: 12px;
+}
+
+.footer-container__copyright--list {
+    width: 540px;
+    padding: 0 0 0 15px;
+}
+
+.footer-container__copyright--list li:hover {
+    cursor: pointer;
+    color: var(--green);
 }
 
 .footer-container__copyright ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
 }
