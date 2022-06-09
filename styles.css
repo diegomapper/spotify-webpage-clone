@@ -27,6 +27,8 @@ html {
     font-size: 62.5%;
 }
 
+/********** INDEX - HOME ****************/
+
 /* NAVIGATION BAR */
 
 header {
@@ -316,3 +318,5 @@ footer {
     justify-content: space-between;
     list-style: none;
 }
+
+/************** PREMIUM ******************/
