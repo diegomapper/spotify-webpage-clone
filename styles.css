@@ -319,8 +319,10 @@ footer {
     list-style: none;
 }
 
-/************** PREMIUM ******************/
+/******************* PREMIUM ***********************/
+/******************** PAGE *************************/
 
+/************** PREMIUM SECTION******************/
 .offer-container {
     height: 566px;
     width: 1200px;
@@ -406,3 +408,44 @@ footer {
     line-height: 12px;
 }
 
+/******************** BENEFITS SECTION ********************/
+
+.benefits {
+    height: 574px;
+    width: auto;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.benefits-container {
+    height: auto;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.benefits-container__title {
+    font-size: 4rem;
+    font-weight: var(--bold);
+}
+
+.benefits-container__items {
+    display: flex;
+    list-style: none;
+}
+
+.benefits-container__items--card {
+    height: 285px;
+    width: 285px;
+}
+
+.benefits-container__items--image {
+    height: 142px;
+    width: 142px;
+}
+
+.benefits-container__items--bold {
+    font-size: 2.1rem;
+    font-weight: var(--bold);
+}
