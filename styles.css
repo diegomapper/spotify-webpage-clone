@@ -421,8 +421,12 @@ footer {
 .benefits-container {
     height: auto;
     width: 1200px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
     margin: 0 auto;
+    padding: 0 20px 0 20px;
 }
 
 .benefits-container__title {
@@ -443,9 +447,19 @@ footer {
 .benefits-container__items--image {
     height: 142px;
     width: 142px;
+    margin: 0 70px 40px 70px;
 }
 
 .benefits-container__items--bold {
     font-size: 2.1rem;
     font-weight: var(--bold);
+    line-height: 2.7rem;
+    text-align: center;
+}
+
+.benefits-container__items--small {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    margin: 15px 0;
 }
