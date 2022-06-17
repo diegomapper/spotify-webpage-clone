@@ -463,3 +463,11 @@ footer {
     text-align: center;
     margin: 15px 0;
 }
+
+/******************** PLANS SECTION ********************/
+
+.plans {
+    height: 987px;
+    width: auto;
+    background-color: var(--light-gray);
+}
