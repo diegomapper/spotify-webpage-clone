@@ -471,3 +471,33 @@ footer {
     width: auto;
     background-color: var(--light-gray);
 }
+
+.plans-container__title {
+    font-size: 4rem;
+    font-weight: var(--bold);
+    text-align: center;
+}
+
+.plans-container__description {
+    font-size: 1.6rem;
+    font-weight: var(--medium);
+    text-align: center;
+}
+
+.plans-container__cards {
+    margin: 0 auto;
+}
+
+.plans-container__cards--card {
+    width: 237px;
+    height: 728px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #D6D6D6;
+}
+
+#top {
+    width: 237px;
+    height: 133px;
+}
