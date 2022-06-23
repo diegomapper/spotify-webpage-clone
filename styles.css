@@ -501,3 +501,17 @@ footer {
     width: 237px;
     height: 133px;
 }
+
+#top div {
+    height: 18px;
+    width: 100px;
+    background-color: #2E77D0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#top div span {
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--white);
+}
