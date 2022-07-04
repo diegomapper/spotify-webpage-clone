@@ -497,13 +497,13 @@ footer {
     box-shadow: 1px 1px 5px 1px #D6D6D6;
 }
 
-#top {
+.plans-container__cards--card #top {
     width: 237px;
     height: 180px;
     padding: 16px;
 }
 
-#top div {
+.plans-container__cards--card #top div {
     height: 18px;
     width: 100px;
     background-color: #2E77D0;
@@ -511,7 +511,7 @@ footer {
     border-radius: 4px;
 }
 
-#top div span {
+.plans-container__cards--card #top div span {
     font-size: 1.4rem;
     font-weight: var(--bold);
     color: var(--white);
@@ -520,6 +520,7 @@ footer {
 .plans-container__cards--card #top h3 {
     font-size: 2.4rem;
     font-weight: var(--bold);
+    line-height: 3.4rem;
 }
 
 .plans-container__cards--card #top p {
@@ -531,4 +532,24 @@ footer {
 .plans-container__cards--card hr {
     width: 200px;
     margin: 0 auto;
+}
+
+.plans-container__cards--card #middle {
+    width: 237px;
+    height: 335px;
+    padding: 16px;
+}
+
+.plans-container__cards--card #middle li {
+    margin: 12px 0px;
+    /* padding: 16px; */
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: var(--medium);
+    line-height: 2.2rem;
+    list-style: none;
+}
+
+.plans-container__cards--card #middle li div {
+    padding: 0px 10px 0px 0px;
 }
