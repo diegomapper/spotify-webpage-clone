@@ -499,7 +499,8 @@ footer {
 
 #top {
     width: 237px;
-    height: 133px;
+    height: 180px;
+    padding: 16px;
 }
 
 #top div {
@@ -514,4 +515,20 @@ footer {
     font-size: 1.4rem;
     font-weight: var(--bold);
     color: var(--white);
+}
+
+.plans-container__cards--card #top h3 {
+    font-size: 2.4rem;
+    font-weight: var(--bold);
+}
+
+.plans-container__cards--card #top p {
+    font-size: 1.6rem;
+    font-weight: var(--medium);
+    line-height: 2.2rem;
+}
+
+.plans-container__cards--card hr {
+    width: 200px;
+    margin: 0 auto;
 }
