@@ -581,3 +581,19 @@ footer {
     font-weight: var(--bold);
     color: var(--white);
 }
+
+.plans-container__cards--card #bottom {
+    height: 163px;
+    width: 237px;
+    padding: 16px;
+}
+
+.plans-container__cards--card #bottom p {
+    font-size: 1rem;
+    font-weight: var(--light);
+    text-align: justify;
+}
+
+.plans-container__cards--card #bottom p span {
+    
+}
