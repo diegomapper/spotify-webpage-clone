@@ -553,3 +553,31 @@ footer {
 .plans-container__cards--card #middle li div {
     padding: 0px 10px 0px 0px;
 }
+
+.plans-container__cards--card #button {
+    height: 48px;
+    width: 237px;
+    display: flex;
+    justify-content: center;
+}
+
+.plans-container__cards--card button {
+    height: 48px;
+    width: 200px;
+    background-color: var(--black);
+    border: none;
+    border-radius: 40px;
+}
+
+.plans-container__cards--card button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--black);
+}
+
+.plans-container__cards--card button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--white);
+}
