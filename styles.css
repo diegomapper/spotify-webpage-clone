@@ -470,15 +470,20 @@ footer {
     height: 987px;
     width: auto;
     background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .plans-container__title {
+    margin: 0 0 10px 0;
     font-size: 4rem;
     font-weight: var(--bold);
     text-align: center;
 }
 
 .plans-container__description {
+    margin: 0 0 40px 0;
     font-size: 1.6rem;
     font-weight: var(--medium);
     text-align: center;
@@ -542,12 +547,22 @@ footer {
 
 .plans-container__cards--card #middle li {
     margin: 12px 0px;
-    /* padding: 16px; */
     display: flex;
     font-size: 1.6rem;
     font-weight: var(--medium);
     line-height: 2.2rem;
     list-style: none;
+}
+
+.plans-container__cards--card #middle #offer {
+    background-color: var(--magenta);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.plans-container__cards--card #middle #check-white {
+    width: 25px;
+    height: 25px;
 }
 
 .plans-container__cards--card #middle li div {
@@ -595,5 +610,5 @@ footer {
 }
 
 .plans-container__cards--card #bottom p span {
-    
+    text-decoration: underline;
 }
