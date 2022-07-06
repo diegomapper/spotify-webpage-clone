@@ -490,13 +490,13 @@ footer {
 }
 
 .plans-container__cards {
-    margin: 0 auto;
+    display: flex;
 }
 
 .plans-container__cards--card {
     width: 237px;
     height: 728px;
-    margin: 0 auto;
+    margin: 0 10px;
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px #D6D6D6;
@@ -555,7 +555,7 @@ footer {
 }
 
 .plans-container__cards--card #middle #offer {
-    background-color: var(--magenta);
+    background-color: #AF2896;
     color: var(--white);
     border-radius: 5px;
 }
