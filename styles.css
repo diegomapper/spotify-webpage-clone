@@ -627,3 +627,28 @@ footer {
     background-size: cover;
 }
 
+.search-help {
+    /* display: flex; */
+}
+
+.search-help__title {
+    width: 700px;
+}
+
+.search-help__title h1 {
+    font-size: 6.4rem;
+    font-weight: var(--bold);
+    text-align: center;
+    color: var(--white);
+    line-height: 7rem;
+}
+
+.search-help__input input {
+    height: 52px;
+    width: 744px;
+    background: url(/assets/search_icon.svg) no-repeat;
+    background-color: var(--white);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    padding-left: 50px;
+}
