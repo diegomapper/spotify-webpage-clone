@@ -612,3 +612,18 @@ footer {
 .plans-container__cards--card #bottom p span {
     text-decoration: underline;
 }
+
+/******************** AYUDA *************************/
+/******************** PAGE *************************/
+
+/**************** SEARCH SECTION ******************/
+
+.help {
+    height: 566px;
+    width: auto;
+    background-image: url(/assets/burbles_help.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
