@@ -648,7 +648,10 @@ footer {
     width: 744px;
     background: url(/assets/search_icon.svg) no-repeat;
     background-color: var(--white);
-    background-position: center;
-    /* background-repeat: no-repeat; */
+    background-position: calc(15px);
     padding-left: 50px;
+}
+
+.search-help__quick-access {
+    color: var(--white);
 }
