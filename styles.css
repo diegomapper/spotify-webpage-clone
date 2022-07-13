@@ -692,12 +692,16 @@ footer {
 .search-list {
     height: 710px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #EEEEEE;
 }
 
 .search-list-container {
     display: grid;
-    width: 1000px;
+    grid-template-columns: 325px 325px 325px;
+    gap: 20px;
 }
 
 .search-list-container__block h3 {
@@ -711,4 +715,9 @@ footer {
     font-weight: var(--bold);
     line-height: 35px;
     color: #127A37;
+    list-style: none;
+}
+
+.search-list-container__block ul li:hover {
+    cursor: pointer;
 }
