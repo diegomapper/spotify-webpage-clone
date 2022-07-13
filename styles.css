@@ -721,3 +721,57 @@ footer {
 .search-list-container__block ul li:hover {
     cursor: pointer;
 }
+
+/**************** COMMUNITY SECTION ******************/
+
+.community {
+    height: 370px;
+    width: auto;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community section {
+    height: auto;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 0px;
+}
+
+.community section h2 {
+    font-size: 4.8rem;
+    font-weight: var(--bold);
+}
+
+.community section p {
+    font-size: 1.8rem;
+    font-weight: var(--medium);
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+.community section button {
+    height: 48px;
+    width: 225px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 40px;
+}
+
+.community section button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--green);
+}
+
+.community section button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--black);
+}
