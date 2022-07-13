@@ -686,3 +686,29 @@ footer {
     line-height: 2.7rem;
     color: var(--white);
 }
+
+/**************** SEARCH LIST SECTION ******************/
+
+.search-list {
+    height: 710px;
+    width: auto;
+    background-color: #EEEEEE;
+}
+
+.search-list-container {
+    display: grid;
+    width: 1000px;
+}
+
+.search-list-container__block h3 {
+    font-size: 2.4rem;
+    font-weight: var(--bold);
+    line-height: 6.4rem;
+}
+
+.search-list-container__block ul li {
+    font-size: 1.8rem;
+    font-weight: var(--bold);
+    line-height: 35px;
+    color: #127A37;
+}
