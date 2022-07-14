@@ -849,3 +849,48 @@ footer {
     font-weight: var(--bold);
     color: var(--black);
 }
+
+/**************** LINKS SECTION ******************/
+
+.links {
+    height: 309px;
+    width: auto;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px 0;
+}
+
+.links-container__title {
+    font-size: 3.2rem;
+    font-weight: var(--bold);
+}
+
+.links-container__description {
+    font-size: 1.6rem;
+    font-weight: var(--medium);
+}
+
+.links-container__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.links-container__images--google {
+    height: 57px;
+    width: 147px;
+}
+
+.links-container__images:hover {
+    cursor: pointer;
+}
