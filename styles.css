@@ -775,3 +775,77 @@ footer {
     font-weight: var(--bold);
     color: var(--black);
 }
+
+/******************** DESCARGAR *************************/
+/******************** PAGE *****************************/
+
+/**************** DOWNLOAD SECTION ******************/
+
+.download {
+    height: 524px;
+    width: auto;
+    background-color: #19E68C;
+    display: flex;
+    align-items: center;
+}
+
+.download-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.download-container__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-container__image--laptop {
+    height: 80px;
+    width: 136px;
+}
+
+.download-container__image--circle {
+    height: 34px;
+    width: 34px;
+    position: absolute;
+}
+
+.download-container__image--check {
+    height: 9px;
+    width: 11px;
+    position: absolute;
+}
+
+.download-container__title {
+    font-size: 4.8rem;
+    font-weight: var(--bold);
+}
+
+.download-container__description {
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+}
+
+.download-container__button {
+    height: 48px;
+    width: 131px;
+    background-color: var(--white);
+    border: none;
+    border-radius: 40px;
+}
+
+.download-container__button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.download-container__button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--black);
+}
