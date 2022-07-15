@@ -955,3 +955,60 @@ footer {
     content: '';
     font-size: 2.2rem;
 }
+
+/******************** REGISTRARSE *************************/
+/******************** PAGE *****************************/
+
+.register {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.register__image {
+    height: 40px;
+    width: 130px;
+}
+
+.register__title {
+    font-size: 3.2rem;
+    font-weight: var(--bold);
+}
+
+.register__options {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__options__blue-button {
+    height: 45px;
+    width: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+    background-color: #384F81;
+    border: none;
+    border-radius: 40px;
+}
+
+.register__options__blue-button img {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+}
+
+.register__options__blue-button a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.register__options__blue-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #384F81;
+}
