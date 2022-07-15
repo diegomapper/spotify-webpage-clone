@@ -997,7 +997,7 @@ footer {
 .register__options__blue-button img {
     width: 24px;
     height: 24px;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .register__options__blue-button a {
