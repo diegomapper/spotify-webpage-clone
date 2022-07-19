@@ -975,7 +975,7 @@ footer {
 }
 
 .register__title {
-    margin: 20px 0;
+    margin: 20px 0 40px 0;
     font-size: 3.2rem;
     font-weight: var(--bold);
 }
@@ -983,6 +983,7 @@ footer {
 .register__options {
     display: flex;
     flex-direction: column;
+    gap: 20px 0;
 }
 
 .register__options__blue-button {
@@ -1031,7 +1032,6 @@ footer {
 .register__options__white-button img {
     width: 24px;
     height: 24px;
-    /* background-color: white; */
 }
 
 .register__options__white-button a {
@@ -1045,4 +1045,27 @@ footer {
     transform: scale(1.05);
     cursor: pointer;
     background-color: var(--white);
+}
+
+.divider {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.divider hr {
+    border: none;
+    border-top: 2px solid #919496;
+    overflow: visible;
+    text-align: center;
+}
+
+hr:after {
+    background: var(--white);
+    content: 'o';
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+    color: #919496;
+    padding: 0 10px;
+    position: relative;
+    top: -11px;
 }
