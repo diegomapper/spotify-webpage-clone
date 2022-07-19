@@ -28,8 +28,98 @@
         <hr>
     </div>
     <section class="form">
+        <h3>Inicia sesión con tu correo electrónico</h3>
         <form action="/">
-
+            <div>
+                <label for="email">¿Cuál es tu correo?</label>
+                <input type="text" name="mail" id="email" placeholder="Ingresa tu correo electrónico.">
+            </div>
+            <div>
+                <label for="email-c">Confirma tu correo</label>
+                <input type="text" name="mail" id="email-c" placeholder="Ingresa tu correo de nuevo.">
+            </div>
+            <div>
+                <label for="password">Crea una contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Crea una contraseña.">
+            </div>
+            <div>
+                <label for="name">¿Cómo debemos llamarte?</label>
+                <input type="text" name="name" id="name" placeholder="Ingresa un nombre de usuario.">
+                <span>Esto aparecerá en tu perfil</span>
+            </div>
+            <div>
+                <span>¿Cuál es tu fecha de nacimiento?</span>
+                <div>
+                    <div>
+                        <label for="bday">Día</label>
+                        <input type="number" name="bday" id="bday" placeholder="DD">
+                    </div>
+                    <div>
+                        <label for="bmonth">Mes</label>
+                        <input type="text" list="months" name="bmonth" id="bmonth" placeholder="Mes">
+                            <datalist id="months">
+                                <option value="Enero"></option>
+                                <option value="Febrero"></option>
+                                <option value="Marzo"></option>
+                                <option value="Abril"></option>
+                                <option value="Mayo"></option>
+                                <option value="Junio"></option>
+                                <option value="Julio"></option>
+                                <option value="Agosto"></option>
+                                <option value="Septiembre"></option>
+                                <option value="Octubre"></option>
+                                <option value="Noviembre"></option>
+                                <option value="Diciembre"></option>
+                            </datalist>
+                    </div>
+                    <div>
+                        <label for="byear">Año</label>
+                        <input type="number" name="byear" id="byear" placeholder="AAAA">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span>¿Cuál es tu género?</span>
+                    <div>
+                        <input type="radio" name="male" id="male">
+                        <label for="male">Masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="femme" id="femme">
+                        <label for="femme">Femenino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="non" id="non">
+                        <label for="non">No binario</label>
+                    </div>
+            </div>
+            <div>
+                <input type="checkbox" name="marketing" id="marketing">
+                <label for="marketing">Prefiero no recibir mensajes de marketing de Spotify</label>
+            </div>
+            <div>
+                <input type="checkbox" name="share-data" id="share-data">
+                <label for="share-data">Compartir mi inforación de registro con los proveedores de contenido de Spotify para propósitos de marketing</label>
+            </div>
+            <div class="form__captcha">
+                <div>
+                    <input type="checkbox" name="robot" id="robot">
+                    <label for="robot">No soy un robot</label>
+                </div>
+                <img src="/" alt="reCaptcha logo">
+            </div>
+            <article>
+                <p>Al hacer click en Registrarse, aceptas los <span>Términos y Condiciones de Uso</span> de Spotify.</p>
+                <p>Para leer más acerca de cómo Spotify recolecta, usa, comparte y protege tus datos personales, por favor visita <span>Políticas de Privacidad</span>.</p>
+            </article>
+            <div class="button">
+                <button>
+                    <a href="/">Registrarse</a>
+                </button>
+            </div>
+            <div>
+                <p>¿Tienes una cuenta? <span>Inicia sesión</span>.</p>
+            </div>
         </form>
     </section>
 </body>
