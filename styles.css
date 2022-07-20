@@ -1024,7 +1024,7 @@ footer {
     justify-content: center;
     gap: 0 30px;
     background-color: var(--white);
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 40px;
 }
 
@@ -1287,4 +1287,156 @@ hr:after {
 
 .form__login span:hover {
     cursor: pointer;
+}
+
+/*********************** LOGIN ****************************/
+/*********************** PAGE ****************************/
+
+.logo {
+    height: 100px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #919496;
+}
+
+.logo img {
+    height: 52px;
+    width: 182px;
+}
+
+.login {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.login__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 25px 0;
+}
+
+.login__buttons--title {
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+}
+
+.login__buttons--facebook {
+    height: 45px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    background-color: #384F81;
+    border: none;
+    border-radius: 40px;
+}
+
+.login__buttons--facebook img {
+    width: 24px;
+    height: 24px;
+}
+
+.login__buttons--facebook a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.login__buttons--facebook:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #384F81;
+}
+
+.login__buttons--apple {
+    height: 45px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    background-color: #000;
+    border: none;
+    border-radius: 40px;
+}
+
+.login__buttons--apple img {
+    width: 31px;
+    height: 44px;
+}
+
+.login__buttons--apple a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.login__buttons--apple:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #000;
+}
+
+.login__buttons--google {
+    height: 45px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 30px;
+    background-color: var(--white);
+    border: solid 1px black;
+    border-radius: 40px;
+}
+
+.login__buttons--google img {
+    width: 24px;
+    height: 24px;
+}
+
+.login__buttons--google a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+    color: var(--black);
+}
+
+.login__buttons--google:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.login__divider {
+    width: 420px;
+    margin: 0 auto;
+}
+
+.login__divider hr {
+    border: none;
+    border-top: 2px solid #919496;
+    overflow: visible;
+    text-align: center;
+}
+
+.login__divider hr:after {
+    background: var(--white);
+    content: 'o';
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+    color: #919496;
+    padding: 0 10px;
+    position: relative;
+    top: -11px;
 }

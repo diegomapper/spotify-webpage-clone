@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Iniciar sesión</title>
+</head>
+<body>
+    <header class="logo">
+        <img src="/assets/logo_black.svg" alt="Logo de Spotify en negro.">
+    </header>
+    <main class="login">
+        <section class="login__buttons">
+            <p class="login__buttons--title">Para continuar, inicia sesión en Spotify.</p>
+            <button class="login__buttons--facebook">
+                <img src="/assets/facebook-white-alt.png" alt="Logo de Facebook">
+                <a href="/">Inicia sesión con Facebook</a>
+            </button>
+            <button class="login__buttons--apple">
+                <img src="/assets/apple-icon.svg" alt="Logo de Apple">
+                <a href="">Inicia sesión con Apple</a>
+            </button>
+            <button class="login__buttons--google">
+                <img src="/assets/google_logo.svg" alt="Logo de Google">
+                <a href="">Inicia sesión con Google</a>
+            </button>
+        </section>
+        <div class="login__divider">
+            <hr>
+        </div>
+        <form class="login__form" action="post">
+            <div class="login__form--account">
+                <label for="email">Correo electrónico o nombre de usuario</label>
+                <input type="email" id="email" placeholder="Correo electrónico o nombre de usuario.">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Contraseña.">
+            </div>
+            <div class="login__form--button">
+                <p>¿Olvidaste tu contraseña?</p>
+                <div>
+                    <input type="checkbox" id="rememberme">
+                    <label for="rememberme">Recuérdame</label>
+                </div>
+                <button>
+                    <a href="/">INICIAR SESIÓN</a>
+                </button>
+            </div>
+        </form>
+        <section class="login__register">
+            <p class="login__register--title">¿No tienes una cuenta?</p>
+            <button class="login__register--button">
+                <a href="/registro.html">REGISTRARSE EN SPOTIFY</a>
+            </button>
+        </section>
+    </main>
+</body>
+</html>
