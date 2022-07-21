@@ -1440,3 +1440,126 @@ hr:after {
     position: relative;
     top: -11px;
 }
+
+.login__form {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.login__form--account {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form--account label {
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    margin: 20px 0 0 0;
+}
+
+.login__form--account input {
+    height: 52px;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    padding-left: 10px;
+    margin: 10px 0;
+    color: #919496;
+    font-size: 1.4rem;
+    font-weight: var(--medium);
+}
+
+.login__form--button {
+    width: 450px;
+    display: grid;
+    grid-template-areas:"title title"
+                        "checkbox button";
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.login__form--button article {
+    grid-area: title;
+    font-size: 1.6rem;
+    font-weight: var(--medium);
+}
+
+.login__form--button div {
+    grid-area: checkbox;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.login__form--button div input {
+    height: 16px;
+    width: 16px;
+}
+
+.login__form--button div label {
+    font-size: 1.4rem;
+    font-weight: var(--medium);
+}
+
+.login__form--button button {
+    grid-area: button;
+    height: 48px;
+    width: 225px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 40px;
+}
+    
+.login__form--button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: var(--black);
+}
+
+.login__form--button button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--green);
+}
+
+.login__register {
+    width: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid #919496;
+    padding-top: 20px;
+}
+
+.login__register--title {
+    font-size: 1.8rem;
+    font-weight: var(--bold);
+}
+
+.login__register--button {
+    height: 48px;
+    width: 450px;
+    background-color: var(--white);
+    border: 1px solid #919496;
+    border-radius: 40px;
+}
+    
+.login__register--button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+    color: #919496;
+}
+
+.login__register--button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: var(--white);
+}
